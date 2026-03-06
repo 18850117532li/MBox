@@ -8,7 +8,10 @@ public class Main{
         
         playsong.playSong(mbox.getSongID(), mbox.getPremiumSong(), 2);
 
-        
+        MusicBox mbox2 = new MusicBox("X98Z72", 'N', "Sunset Boulevard", "Jazz Collective", 
+        "Midnight Groove", "Jazz", "Blue Note", "Verve")
+
+        playsong.playSong(mbox2.getSongID(),mbox2.getPremiumSong(), ads: 1);
         // --- TODO
 
         /* Repeat the above code to create another object  
